@@ -21,16 +21,19 @@ export default function MainPage() {
 
       <View style={styles.main}>
   <Text style={styles.sectionHeading}>Dashboard</Text>
+  
+
+<View style={styles.main}>
+  <Text style={styles.sectionHeading}>Choose Game Mode</Text>
+
   <View style={styles.buttonWrapper}>
-    <Button
-      title="Start"
-      onPress={() => {
-        router.push("/gameScreen");
-      }}
-    />
+    <Button title="Answer Questions" onPress={() => router.push("/gameScreen")} />
+    <View style={{ height: 16 }} />
+    <Button title="Memory Match" onPress={() => router.push("/memoryGame")} />
   </View>
 </View>
 
+</View>
       <View style={styles.legalRow}>
         <Text style={styles.legalText}>Terms</Text>
         <Text style={styles.legalText}>•</Text>

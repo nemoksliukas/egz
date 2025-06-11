@@ -2,19 +2,19 @@ export default [
   {
     id: 'q1',
     type: 'OPEN_ENDED',
-    text: 'I am a student',
-    answer: 'As esu studentas',
+    text: 'Kiek yra 15*10',
+    answer: '150',
   },
   {
     id: 'q2',
     type: 'OPEN_ENDED',
-    text: 'The car is red',
-    answer: 'Masina yra raudona',
+    text: 'Ar 100/10 yra lygu 10? taip ar ne?',
+    answer: 'taip',
   },
   {
     id: 'q3',
     type: 'OPEN_ENDED',
-    text: 'I enjoy learning laguages',
-    answer: 'Man patinka mokytis kalbu',
+    text: 'Ar 5*10/2 yra 20? Taip ar ne?',
+    answer: 'ne',
   },
 ];
