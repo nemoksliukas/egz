@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "LangQuest",
+    "slug": "LangQuest",
+    "version": "1.0.0",
+    "scheme": "langquest",
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "tsconfigPaths": true
+    },
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.LangQuest"
+    },
+    "extra": {
+      "EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY": "pk_test_c2hhcnAtdGVybWl0ZS05NC5jbGVyay5hY2NvdW50cy5kZXYk"
+    }
+  }
+}
